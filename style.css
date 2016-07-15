@@ -1,0 +1,213 @@
+body {
+    background-color: #ff9900;
+}
+#wrapper {
+    box-sizing: border-box;
+    width: 700px;
+    height: 540px;
+    margin: 0 auto;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    border: 1px groove #ff6600;
+    box-shadow: 2px 2px 2px maroon;
+    padding: 25px 40px;
+}
+
+div.row {
+    display: inline;
+    width: 620px;
+    height:123px;
+    margin: 0 auto;
+}
+
+div.car {
+    width: 200px;
+    height: 120px;
+    display: inline;
+    transition: 1s 1s;
+}
+
+div.car:hover {
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+}
+
+img:hover {
+    animation:Shake 0.2s infinite;
+}
+
+img#first-first:focus {
+    animation:Presentation11 4s ease-in-out;
+}
+
+img#first-second:focus {
+    animation:Presentation12 4s ease-in-out;
+}
+
+img#first-third:focus {
+    animation:Presentation13 4s ease-in-out;
+}
+
+img#second-first:focus {
+    animation:Presentation21 4s ease-in-out;
+}
+
+img#second-second:focus {
+    animation:Presentation22 4s ease-in-out;
+}
+
+img#second-third:focus {
+    animation:Presentation23 4s ease-in-out;
+}
+
+img#third-first:focus {
+    animation:Presentation31 4s ease-in-out;
+}
+
+img#third-second:focus {
+    animation:Presentation32 4s ease-in-out;
+}
+
+img#third-third:focus {
+    animation:Presentation33 4s ease-in-out;
+}
+
+img#fourth-first:focus {
+    animation:Presentation41 4s ease-in-out;
+}
+
+img#fourth-second:focus {
+    animation:Presentation42 4s ease-in-out;
+}
+
+img#fourth-third:focus {
+    animation:Presentation43 4s ease-in-out;
+}
+
+@keyframes Shake {
+    25% {
+        transform: translate(1px, 1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(2px, 2px) rotate(2deg);
+    }
+
+    75% {
+        transform: translate(1px, 1px) rotate(-2deg);
+    }
+}
+
+@keyframes Presentation11   {
+    70% {
+        transform:translate(200px, 180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation12   {
+    70% {
+        transform:translate(0, 180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation13   {
+    70% {
+        transform:translate(-200px, 180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation21   {
+    70% {
+        transform:translate(200px,60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation22   {
+    70% {
+        transform:translate(0px, 60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation23   {
+    70% {
+        transform:translate(-200px, 60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation31   {
+    70% {
+        transform:translate(200px, -60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation32   {
+    70% {
+        transform:translate(0px, -60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation33   {
+    70% {
+        transform:translate(-200px, -60px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation41   {
+    70% {
+        transform:translate(200px, -180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation42   {
+    70% {
+        transform:translate(0px, -180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes Presentation43   {
+    70% {
+        transform:translate(-200px, -180px) rotate(360deg) scale(1.5);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
